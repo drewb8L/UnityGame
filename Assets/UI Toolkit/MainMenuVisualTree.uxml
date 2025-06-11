@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ui:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ui="UnityEngine.UIElements"
-    xmlns:uie="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=cea434ad55bfa49a48aca7180c73c613&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Project/UI/Images/Leonardo_Anime_XL_Created_a_background_image_for_a_mobile_game_3.jpg?fileID=2800000&amp;guid=d81c69ee6397f45cd972795d204b9ddf&amp;type=3#Leonardo_Anime_XL_Created_a_background_image_for_a_mobile_game_3&quot;); align-items: center; justify-content: space-between; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 40px; padding-right: 40px; padding-bottom: 40px; padding-left: 40px; background-size: 125% 100%;">
+        <ui:Label text="Main Menu" name="Header" class="header" />
+        <ui:ProgressBar value="22" title="my-progress" name="ProgressBar" class="unity-progress-bar__progress" style="height: auto; bottom: 362px; align-items: center; align-content: auto; width: 100%; flex-basis: 0%; flex-direction: row; justify-content: center; align-self: auto; overflow: visible; top: 2112px;" />
+    </ui:VisualElement>
 </ui:UXML>
